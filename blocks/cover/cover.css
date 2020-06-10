@@ -52,10 +52,6 @@
     width: 100%;
     height: 480px;
   }
-
-  .cover__title {
-    padding-top: 100px;
-  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -63,16 +59,5 @@
     margin: 60px auto 0;
     width: 100%;
     height: 200px;
-  }
-
-  .cover__title {
-    padding-top: 33px;
-    font-size: 32px;
-    line-height: 35px;
-  }
-
-  .cover__subtitle {
-    font-size: 14px;
-    line-height: 16px;
   }
 }

@@ -30,24 +30,4 @@
     align-items: flex-start;
     margin-top: 60px;
   }
-
-  .footer__links {
-    flex-direction: column;
-  }
-
-  .footer__link-box {
-    margin-bottom: 32px;
-  }
-
-  .footer__link-box:last-of-type {
-      margin-bottom: 45px;
-  }
-
-  .footer__link:last-of-type {
-    margin-bottom: 42px;
-  }
-
-  .footer__copyright {
-    text-align: left;
-  }
 }
