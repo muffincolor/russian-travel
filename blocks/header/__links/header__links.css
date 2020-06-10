@@ -1,4 +1,6 @@
 .header__links {
-  float: right;
-  padding-top: 16px;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: flex-end;
 }

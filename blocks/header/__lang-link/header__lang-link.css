@@ -1,16 +1,27 @@
+@import url(./_active/header__lang-link_active.css);
+@import url(./_disable/header__lang-link_disable.css);
+
 .header__lang-link {
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
   text-align: right;
-  text-decoration-line: none;
-
 
   color: #FFFFFF;
 }
 
 .header__lang-link:first-of-type {
   margin-right: 18px;
-  text-decoration-line: underline;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }
