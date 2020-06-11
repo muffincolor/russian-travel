@@ -12,14 +12,12 @@
 
 @media only screen and (min-width: 1024px) and (max-width: 1279px) {
   .photo-grid {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .photo-grid {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -27,7 +25,6 @@
 @media only screen and (max-width: 767px) {
   .photo-grid {
     margin: 65px auto;
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
 }

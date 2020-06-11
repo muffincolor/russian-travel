@@ -1,6 +1,3 @@
-@import url(./_active/header__lang-link_active.css);
-@import url(./_disable/header__lang-link_disable.css);
-
 .header__lang-link {
   font-style: normal;
   font-weight: normal;
@@ -9,6 +6,8 @@
   text-align: right;
 
   color: #FFFFFF;
+
+  text-decoration-line: none;
 }
 
 .header__lang-link:first-of-type {
