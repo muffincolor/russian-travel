@@ -1,5 +1,4 @@
 @import url(./__title/cover__title.css);
-@import url(./__image/cover__image.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__link-box/cover__link-box.css);
 
@@ -30,13 +29,6 @@
 }
 
 .cover:hover::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
   background: rgba(42, 44, 47, 0.8);
 }
 

@@ -2,6 +2,7 @@
 @import url(./__text/intro__text.css);
 @import url(./__title/intro__title.css);
 @import url(./__item/intro__item.css);
+@import url(./__list-item/intro__list-item.css);
 
 .intro {
   width: 55%;
